@@ -105,7 +105,7 @@ public class Main {
 			}
 			
 			if ("7".equals(statements[i].split(" ")[0])) {
-				customers[Integer.parseInt(statements[i].split(" ")[1])].setOperator(operators[2]);
+				customers[Integer.parseInt(statements[i].split(" ")[1])].setOperator(operators[Integer.parseInt(statements[i].split(" ")[2])]);
 			}
 			if ("8".equals(statements[i].split(" ")[0])) {
 				if(Double.parseDouble(statements[i].split(" ")[2]) >= customers[Integer.parseInt(statements[i].split(" ")[1])].getBill().getCurrentDebt())
@@ -162,7 +162,7 @@ public class Main {
 			
 			}
 			outstream1.printf(customers[networkID].getName() + " : %.2f" ,networkCount );
-		
+			outstream1.print("\n");
 	
 		//DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
 	} 

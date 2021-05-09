@@ -23,8 +23,9 @@ public class Bill {
  	}
  	public void pay(double amount) {
  		if (amount> currentDebt)
- 			{currentDebt = 0;
- 			spentMoney += currentDebt ;
+ 			{spentMoney += currentDebt ;
+ 			currentDebt = 0;
+ 			
  			}
  		else {
  			currentDebt  -= amount ;
