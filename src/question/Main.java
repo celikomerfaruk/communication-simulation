@@ -113,6 +113,7 @@ public class Main {
 			}
 		}
 	 
+		//yazdirma
 		for (int i = 0; i < operators.length; i++) {
 			outstream1.printf("Operator "+ i + " : " + operators[i].getTalkingServiceMinutes() + " " + operators[i].getMessageServiceCount() + " %.2f"  ,operators[i].getInternetServiceAmount());
 		
