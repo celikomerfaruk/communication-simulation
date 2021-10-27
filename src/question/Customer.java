@@ -5,7 +5,7 @@ import org.junit.validator.PublicClassValidator;
 
 public class Customer {
 	
-	//DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
+	
 	private int ID;
 	private String name;
 	private int age;
@@ -80,6 +80,6 @@ public class Customer {
 
 
 
-	//DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
+	
 }
 

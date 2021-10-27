@@ -3,7 +3,7 @@ package question;
 
 public class Bill {
 
-	//DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
+	
 	private double limitingAmount;
 	private double currentDebt;
 	private double spentMoney ;
@@ -56,6 +56,6 @@ public class Bill {
 
  	
 
-	//DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
+	
 }
 

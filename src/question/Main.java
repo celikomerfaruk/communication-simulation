@@ -40,7 +40,7 @@ public class Main {
 		customers = new Customer[C];
 		operators = new Operator[O];
 
-		//DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
+		
 		
 		
 		PrintStream outstream1;
@@ -165,7 +165,7 @@ public class Main {
 			outstream1.printf(customers[networkID].getName() + " : %.2f" ,networkCount );
 			outstream1.print("\n");
 	
-		//DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
+		
 	} 
 }
 
